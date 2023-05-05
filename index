@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>YSTU SLB</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="nav-line">
+          <a href="index.html" class="logo">Slb ystu</a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="" class="nav-link nav-link-1">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Матчи</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Турниры</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Команды и игроки</a>
+            </li>
+          </ul>
+          <a href="#!" class="auth-link nav-link">Войти/Зарегистрироваться</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="spots-container">
+        <img src="img/spot1.svg" alt="" class="spot1">
+        <img src="img/spot3.svg" alt="" class="spot2">
+        <img src="img/spot2.svg" alt="" class="spot3">
+        <img src="img/blue1.svg" alt="" class="ringle1">
+        <img src="img/orange1.svg" alt="" class="ringle2">
+        <img src="img/blue2.svg" alt="" class="ringle3">
+      </div>
+      <section class="header-page">
+        <div class="container">
+          <div class="header-content">
+            <img src="img/SLB.png" alt="" class="SLB-img">
+            <a href="#!" class="vk-link"><img src="img/VK.svg" alt=""></a>
+            <p>Кафедра «Физического воспитания» ЯГТУ шагнула в сторону цифровизации проведения турниров по баскетболу для обучающихся в школах г. Ярославля и Ярославской области.</p>
+          </div>
+        </div>
+      </section>
+      <section class="matches">
+        <div class="container">
+        <div class="container-2">
+          <div class="matches-content">
+            <h1 class="main-title matches-title">Матчи</h1>
+            <div class="tables">
+            <div class="mt-table-container">
+
+              <div class="table-name mc-table-name">Прошедшие</div>
+                <div class="table-item-1">Школа</div>
+                <div class="table-item-2">
+                  <div class="table-item-21">Дата</div>
+                  <div class="table-item-22">Счет</div>
+                </div>
+                <div class="table-item-1">Школа</div>
+
+                <div class="table-item-1 table-item-1v2">Школа</div>
+                <div class="table-item-2 table-item-2v2">
+                  <div class="table-item-21">Дата</div>
+                  <div class="table-item-22">Счет</div>
+                </div>
+
+                <div class="table-item-1 table-item-1v2">Школа</div>
+                <div class="table-item-1 ">Школа</div>
+                <div class="table-item-2">
+                  <div class="table-item-21">Дата</div>
+                  <div class="table-item-22">Счет</div>
+                </div>
+                <div class="table-item-1">Школа</div>
+
+                <div class="table-item-1 table-item-1v2">Школа</div>
+                <div class="table-item-2 table-item-2v2">
+                  <div class="table-item-21">Дата</div>
+                  <div class="table-item-22">Счет</div>
+                </div>
+                <div class="table-item-1 table-item-1v2">Школа</div>
+
+              <div class="table-item-1">Школа</div>
+              <div class="table-item-2">
+                <div class="table-item-21">Дата</div>
+                <div class="table-item-22">Счет</div>
+              </div>
+              <div class="table-item-1">Школа</div>
+
+              </div>
+
+              <div class="mt-table-container">
+                <div class="table-name mc-table-name">Будущие</div>
+                <div class="table-item-1">Школа</div>
+                <div class="table-item-2">
+                  <div class="table-item-21">Дата</div>
+                  <div class="table-item-22">Счет</div>
+                </div>
+                <div class="table-item-1">Школа</div>
+                <div class="table-item-1 table-item-1v2">Школа</div>
+                <div class="table-item-2 table-item-2v2">
+                  <div class="table-item-21">Дата</div>
+                  <div class="table-item-22">Счет</div>
+                </div>
+                <div class="table-item-1 table-item-1v2">Школа</div>
+                <div class="table-item-1 ">Школа</div>
+                <div class="table-item-2">
+                  <div class="table-item-21">Дата</div>
+                  <div class="table-item-22">Счет</div>
+                </div>
+                <div class="table-item-1">Школа</div>
+                <div class="table-item-1 table-item-1v2">Школа</div>
+                <div class="table-item-2 table-item-2v2">
+                  <div class="table-item-21">Дата</div>
+                  <div class="table-item-22">Счет</div>
+                </div>
+                <div class="table-item-1 table-item-1v2">Школа</div>
+                <div class="table-item-1">Школа</div>
+                <div class="table-item-2">
+                  <div class="table-item-21">Дата</div>
+                  <div class="table-item-22">Счет</div>
+                </div>
+                <div class="table-item-1">Школа</div>
+
+              </div>
+            </div>
+            <a href="#!" class="table-link" target="_blank">Посмотреть полностью</a>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="tournaments">
+        <div class="container">
+          <div class="tournaments-container">
+            <div class="tournaments-content">
+              <h1 class="main-title tn-title">Турниры</h1>
+              <div class="tournaments-news">
+                <img src="img/left.svg" alt="" class="arrow">
+                <div class="pic-news">
+                  <img src="img/pic1.png" alt="" class="pic1">
+                  <img src="img/pic2.png" alt="" class="pic2">
+                  <img src="img/pic3.png" alt="" class="pic3">
+                </div>
+                <img src="img/right.svg" alt="" class="arrow">
+              </div>
+            </div>
+          </div>          
+        </div>
+      </section>
+      <section class="rating">
+        <div class="container">
+          <div class="container-2">
+            <div class="rating-content">
+              <h1 class="main-title rt-title">Рейтинг</h1>
+              <p>Информация по поводу турнира</p>
+              <div class="rt-tables">
+                <div class="rt-tables12">
+                  <div class="rt-table-1">
+                    <div class="table-name rt-table-name">
+                      <img src="img/left.svg" alt="" class="arrow2">
+                      <span>Группа А</span>
+                      <img src="img/right.svg" alt="" class="arrow2">
+                    </div>
+
+                    <div class="rt-table-item-1">1</div>
+                    <div class="rt-table-item-2">Школа</div>
+                    <div class="rt-table-item-3">
+                      <div class="rt-table-item-31">00</div>
+                      <div class="rt-table-item-32">Очка</div>
+                    </div>
+
+                    <div class="rt-table-item-1 rt-table-item-11">2</div>
+                    <div class="rt-table-item-2 rt-table-item-22">Школа</div>
+                    <div class="rt-table-item-3 rt-table-item-33">
+                      <div class="rt-table-item-31">00</div>
+                      <div class="rt-table-item-32">Очка</div>
+                    </div>
+
+                    <div class="rt-table-item-1">3</div>
+                    <div class="rt-table-item-2">Школа</div>
+                    <div class="rt-table-item-3">
+                      <div class="rt-table-item-31">00</div>
+                      <div class="rt-table-item-32">Очка</div>
+                    </div>
+
+                  </div>
+                  <div class="rt-table-1">
+
+                    <div class="table-name rt-table-name">Команды</div>
+
+                    <div class="rt-table-item-1">1</div>
+                    <div class="rt-table-item-2">Школа</div>
+                    <div class="rt-table-item-3">
+                      <div class="rt-table-item-31">00</div>
+                      <div class="rt-table-item-32">Очка</div>
+                    </div>
+
+                    <div class="rt-table-item-1 rt-table-item-11">2</div>
+                    <div class="rt-table-item-2 rt-table-item-22">Школа</div>
+                    <div class="rt-table-item-3 rt-table-item-33">
+                      <div class="rt-table-item-31">00</div>
+                      <div class="rt-table-item-32">Очка</div>
+                    </div>
+
+                    <div class="rt-table-item-1">3</div>
+                    <div class="rt-table-item-2">Школа</div>
+                    <div class="rt-table-item-3">
+                      <div class="rt-table-item-31">00</div>
+                      <div class="rt-table-item-32">Очка</div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="rt-table-2">
+                    <div class="table-name rt-table-name-2">Игроки</div>
+
+                    <div class="rt-table-item-1">1</div>
+                    <div class="rt-table-2-item-2">ФИО</div>
+                    <div class="rt-table-item-2">Школа</div>
+                    <div class="rt-table-2-item-4">
+                      <div class="rt-table-item-31">00</div>
+                      <div class="rt-table-item-32">Очка</div>
+                    </div>
+
+                    <div class="rt-table-item-1 rt-table-item-11">2</div>
+                    <div class="rt-table-2-item-2 rt-table-2-item-22">ФИО</div>
+                    <div class="rt-table-item-2 rt-table-item-22">Школа</div>
+                    <div class="rt-table-2-item-4 rt-table-item-33">
+                      <div class="rt-table-item-31">00</div>
+                      <div class="rt-table-item-32">Очка</div>
+                    </div>
+
+                    <div class="rt-table-item-1">3</div>
+                    <div class="rt-table-2-item-2">ФИО</div>
+                    <div class="rt-table-item-2">Школа</div>
+                    <div class="rt-table-2-item-4">
+                      <div class="rt-table-item-31">00</div>
+                      <div class="rt-table-item-32">Очка</div>
+                    </div>
+
+                    <div class="rt-table-item-1 rt-table-item-11">4</div>
+                    <div class="rt-table-2-item-2 rt-table-2-item-22">ФИО</div>
+                    <div class="rt-table-item-2 rt-table-item-22">Школа</div>
+                    <div class="rt-table-2-item-4 rt-table-item-33">
+                      <div class="rt-table-item-31">00</div>
+                      <div class="rt-table-item-32">Очка</div>
+                    </div>
+                </div>
+              </div>
+              <a href="#!" class="table-link" target="_blank">Посмотреть полностью</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="container-2">
+          <div class="footer-info">
+
+            <div class="info-block">
+              <h3 class="info-name">Контакты</h3>
+              <div class="info-text">
+                <p>@ystu_physedu</p>
+                <p>+7 (800) 250-76-77</p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <h3 class="info-name">Соц.Сети</h3>
+              <div class="info-text">
+                <p><a href="#!" class="info-link">https://vk.com/ystu</a></p>
+                <p><a href="#!" class="info-link">https://vk.com/ystu_physedu</a></p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <h3 class="info-name">Адрес</h3>
+              <div class="info-text">
+                <p>ул.Гагарина, д.7</p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <h3 class="info-name">Фотографы</h3>
+              <div class="info-text">
+                <p>Ольга Малышкина</p>
+                <p>Валера Соколов</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="year">2023</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

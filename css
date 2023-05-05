@@ -1,0 +1,504 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Nunito+Sans:wght@400;600;700;900&family=Nunito:wght@600&family=Overpass:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+	position: relative;
+	text-transform: uppercase;
+	z-index: 4;
+}
+a{
+	text-decoration: none;
+}
+
+/* Spot styles */
+@media screen and (max-width: 1600px){
+	.spot1{
+		width: 500px;
+	}
+	.spot2{
+		width: 350px;
+	}
+	.spot3{
+		width: 350px;
+	}
+	.ringle1{
+		width: 150px;
+	}
+	.ringle2{
+		width: 200px;
+	}
+	.ringle3{
+		width: 200px;
+	}
+}
+.spot1{
+	position: absolute;
+	z-index: 0;
+	top: 755px;
+}
+.ringle1{
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 1173px;
+}
+.spot2 {
+	position: absolute;
+	right: 0;
+	top: 1850px;
+}
+.ringle2 {
+	position: absolute;
+	right: 0;
+	top: 1758px;
+}
+.spot3 {
+	position: absolute;
+	left: 0;
+	top: 2850px;
+}
+.ringle3 {
+	position: absolute;
+	left: 0;
+	top: 2850px;
+}
+.spot4 {
+	position: absolute;
+}
+.ringle4 {
+	position: absolute;
+}
+
+
+/* Header styles */
+
+.container{
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.container-2{
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.header{
+	background: #333333;
+}
+.nav-line{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 24px 50px;
+}
+.logo{
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 33px;
+}
+.nav-list{
+	display: flex;
+	column-gap:	125px;
+}
+@media screen and (max-width: 1600px){
+
+	a.nav-link{
+		font-size: 22px;
+		line-height: 27px;
+	}
+	.logo{
+		font-size: 22px;
+		line-height: 23px;
+	}
+	a.auth-link{
+		font-size: 15px;
+	}
+}
+.nav-link{
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 37px;
+}
+.auth-link{
+	font-weight: 400;
+	font-size: 20px;
+}
+.header a{
+	color: white;
+}
+a.nav-link-1{
+	color: #F07C00;
+}
+a.nav-link:hover{
+	transition: 0.2s all;
+	color: #F07C00;
+}
+
+/*Main styles*/
+.main-title{
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 111px;
+}
+.header-page{
+
+}
+.header-content{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	padding-left: 120px;
+}
+.header-content a{
+	position: absolute;
+	bottom: 62px;
+	right: 50px;
+}
+.header-content p{
+	position: absolute;
+	top: 593px;
+	left: 120px;
+	max-width: 633px;
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: none;
+}
+@media screen and (max-width: 1600px){
+	.header-content p{
+		top: 493px;
+		max-width: 483px;
+		font-size: 26px;
+		line-height: 32px;
+	}
+}
+
+/*Matches styles*/
+
+.matches{
+	padding-top: 312px;
+}
+.matches-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.matches-title{
+	color: #004589;
+	margin-bottom: 50px;
+}
+.tables{
+	display: flex;
+	column-gap:30px;
+	margin-bottom: 20px;
+	z-index: 2;
+}
+/*Table styles*/
+
+.mt-table-container{
+	display: grid;
+	grid-template-columns: 187px 160px 187px;
+	border: #333333 3px solid;
+}
+.mc-table-name{
+	padding: 14px 0 14px 0;
+	grid-area: 1/1/3/4;
+
+}
+.table-name{
+	background: #333333;
+	color: white;
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 115.9%;
+	text-align: center;
+	text-justify: center;
+}
+.mt-table-container div{
+	text-align: center;
+}
+.table-item-1{
+	background: white;
+	padding: 39px 0 36px 0;
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 115.9%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.table-item-2{
+	display: flex;
+	flex-direction: column;
+	background: #FF982A;
+	padding-top:7px;
+}
+.table-item-21{
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 115.9%;
+	color: white;
+}
+.table-item-22{
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 115.9%;
+}
+.table-item-1v2{
+	background: #E4E4E4;
+}
+.table-item-2v2{
+	background: #F07C00;
+}
+
+/*Matches styles continue*/
+
+a.table-link{
+	display: flex;
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 46px;
+	text-decoration: underline;
+	text-transform: none;
+	color: #828282;
+}
+a.table-link:hover{
+	filter: brightness(1.2);
+}
+
+/* Tournaments styles */
+.tournaments{
+	margin-top: 179px;
+	position: relative;
+	z-index:4;
+}
+.tournaments-container{
+	background: rgba(51, 51, 51, 0.6);
+	display: flex;
+	justify-content: center;
+}
+.tn-title{
+	padding-top: 60px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: white;
+}
+.tournaments-news{
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+	padding-bottom: 90px;
+}
+.pic-news{
+	display: flex;
+	column-gap: 30px;	
+}
+.arrow{
+	padding: 25px 14px;
+	border: 4px solid white;
+	border-radius: 50%;
+}
+
+/* Rating styles */
+
+.rating-content{
+	margin-top: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.rating-content p{
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 46px;
+	text-transform: none;
+	margin-bottom: 40px;
+}
+
+/* Rating tables styles */
+.rt-tables{
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+	position: relative;
+	z-index: 4;
+}
+.rt-tables12{
+	display: flex;
+}
+/* Table-1 */
+
+.rt-table-1{
+	display: grid;
+	grid-template-columns: 62px 206px 76px;
+	border: 3px solid #333333;
+	margin-right: 30px;
+}
+.rt-table-1:last-child{
+	margin-right: 0;
+}
+.rt-table-name{
+	padding: 14px 25px;
+	grid-area: 1/1/3/4;
+	display: flex;
+	align-items: center;
+	column-gap: 24px;
+	justify-content: center;
+}
+.arrow2{
+	width: 11%;
+}
+.rt-table-item-1 {
+	padding: 16px 0;
+	background: #FF982A;
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 115.9%;
+	text-align: center;
+}
+.rt-table-item-2 {
+	background: white;
+	padding: 25px 0;
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	text-justify: center;
+}
+.rt-table-item-3 {
+	background: #E4E4E4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 12px;
+}
+.rt-table-item-31 {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 115.9%;
+}
+.rt-table-item-32 {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 115.9%;
+}
+.rt-table-item-11{
+	background: #F07C00;
+}
+.rt-table-item-22{
+	background: #E4E4E4;
+}
+.rt-table-item-33{
+	background: #BDBDBD;
+}
+
+/* Table-2 identical for Table-1 */
+
+/* Table-3 */
+.rt-table-2{
+	display: grid;
+	grid-template-columns: 62px 316px 252px 93px;
+	border: 3px solid #333333;
+}
+.rt-table-name-2{
+	grid-area: 1/1/4/5;
+	padding: 14px 0;
+}
+.rt-table-2-item-2 {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 115.9%;
+	text-align: center;
+	text-justify: center;
+	background: white;
+	padding: 20px 0;
+}
+.rt-table-2-item-4 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 12px;
+	align-items: center;
+}
+.rt-table-2-item-22{
+	background: #E4E4E4;
+}
+.rating-content a{
+	margin-top: 20px;
+	padding-bottom: 250px;
+}
+
+/* Footer styles */
+.footer{
+	background: #333333;
+	color: white;
+}
+.footer-info{
+	padding-top: 60px;
+	max-width: 1045px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding-bottom: 63px;
+}
+.info-name{
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 115.9%;
+	margin-bottom: 25px;
+}
+.info-block p{
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 115.9%;
+	text-transform: none;
+}
+.info-link{
+	color:white;
+}
+.info-text p{
+	margin-bottom: 20px;
+}
+.info-text p:last-child{
+	margin-bottom: 0;
+}
+.year{
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 115.9%;
+	text-align: center;
+	padding-bottom: 20px;
+}
